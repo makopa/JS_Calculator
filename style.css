@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 }
-.container{
+.cotainer{
 	width: 256px;
 	height: 400px;
 	background: #999;
@@ -19,7 +19,8 @@
 	font-size: 1.5em;
 	font-family: 'Orbitron', sans-serif;
 }
-.row2{
+#screen{
+	overflow: hidden;
 	background: rgba(0, 0, 0, 0.7);
 	flex: 1;
 	padding: 10px;
@@ -47,11 +48,11 @@ button{
 	font-size: 1.1em;
 */
 }
-#equal{
+.total{
 	height: 107px;
 	position: absolute;
 }
-#zero{
+.zero{
 	width: 110px;
 }
 footer{
